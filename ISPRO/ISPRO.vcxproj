@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arykas7.2.cpp" />
     <ClCompile Include="ArykasHelloWorld.cpp" />
+    <ClCompile Include="ArykasTask6.5.cpp" />
+    <ClCompile Include="ArykasTask9.1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

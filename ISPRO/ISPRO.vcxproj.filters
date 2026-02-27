@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Barsikyan_Task_12.7.cpp">
+    <ClCompile Include="Korolev_test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Barsikyan_hello_world.cpp">
+    <ClCompile Include="Korolev_Task5.5.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Barsikyan_Task_7.3.cpp">
+    <ClCompile Include="Korolev_Task6.3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Barsikyan_Task_9.6.cpp">
+    <ClCompile Include="Korolev_Task9.2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

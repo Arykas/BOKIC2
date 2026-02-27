@@ -16,6 +16,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ivanov_test.cpp">
+    <ClCompile Include="Korolev_test.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Korolev_Task5.5.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Korolev_Task6.3.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Korolev_Task9.2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

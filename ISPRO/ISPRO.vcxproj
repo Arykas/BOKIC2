@@ -126,6 +126,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Ivanov_test.cpp" />
+    <ClCompile Include="Korolev_Task5.5.cpp" />
+    <ClCompile Include="Korolev_Task6.3.cpp" />
+    <ClCompile Include="Korolev_Task9.2.cpp" />
+    <ClCompile Include="Korolev_test.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

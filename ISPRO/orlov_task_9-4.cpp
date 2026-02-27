@@ -1,14 +1,18 @@
 #include <iostream>
 #include <vector>
 void bubble_sort_asc(std::vector<int> vec) {
+	
 	for (int i = 0; i < vec.size(); i++) {
+		bool is_sorted = true;
 		for (int j = 0; j < vec.size() - 1; j++) {
 			if (vec.at(j) > vec.at(j + 1)) {
 				int temp = vec.at(j);
 				vec.at(j) = vec.at(j + 1);
 				vec.at(j + 1) = temp;
+				is_sorted = false;
 			}
 		}
+		if (is_sorted) break;
 	}
 	std::cout << "Sorted ascening:\n";
 	for (int i = 0; i < vec.size(); i++) {
@@ -16,14 +20,18 @@ void bubble_sort_asc(std::vector<int> vec) {
 	}
 }
 void bubble_sort_desc(std::vector<int> vec) {
+
 	for (int i = 0; i < vec.size(); i++) {
+		bool is_sorted = true;
 		for (int j = 0; j < vec.size() - 1; j++) {
 			if (vec.at(j) < vec.at(j + 1)) {
 				int temp = vec.at(j);
 				vec.at(j) = vec.at(j + 1);
 				vec.at(j + 1) = temp;
+				is_sorted = false;
 			}
 		}
+		if (is_sorted) break;
 	}
 	std::cout << "Sorted descending:\n";
 	for (int i = 0; i < vec.size(); i++) {

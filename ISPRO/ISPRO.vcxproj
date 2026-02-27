@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ivanov_test.cpp" />
     <ClCompile Include="Korolev_Task5.5.cpp" />
     <ClCompile Include="Korolev_Task6.3.cpp" />
     <ClCompile Include="Korolev_Task9.2.cpp" />

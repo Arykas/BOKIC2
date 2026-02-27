@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ISPRO/ISPRO.vcxproj" />
+  <Project Path="ISPRO/ISPRO.vcxproj" Id="d2460394-b10e-4fba-828a-694fa8d63085" />
 </Solution>
